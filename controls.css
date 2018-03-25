@@ -1,0 +1,30 @@
+input{
+    width: 50px;
+}
+button{
+    margin: 1rem 0rem;
+}
+#numberB{
+    background-color: #38393a;
+    color:white;
+}
+#randomB{
+    background-color: lightpink;
+}
+#plusB{
+    background-color: darkgrey;
+    color: white;
+}
+#autoB{
+    background-color: darkseagreen;
+}
+#stopB{
+    background-color: yellowgreen;
+}
+.divCopy{
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position:relative;
+}

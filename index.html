@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Assessment 2 - Avatar creator</title>
+      <link href="preview.css" rel="stylesheet" type="text/css">
+      <link href="controls.css" rel="stylesheet" type="text/css">
+  </head>
+  
+  <body>
+    <div id="preview">
+      <img id="hair" class="items" src="img/hair1.png" />
+      <img id="eyes" class="items" src="img/eyes1.png" />
+      <img id="nose" class="items" src="img/nose1.png" />
+      <img id="mouth" class="items" src="img/mouth1.png" />
+    </div>
+      <div id="controls">
+          <input id="range1" type="range" min="0" max="70" value="60">
+          <input id="range2" type="range" min="0" max="40" value="20">
+          <input id="range3" type="range" min="0" max="30" value="20">
+          <input id="range4" type="range" min="0" max="35" value="20">
+          <input id="color" type="color">
+          <br/>
+          <button id="rangeB">Range</button>
+          <button id="numberB">Number</button>
+          <button id="randomB">Random</button>
+          <button id="plusB">+</button> |
+          <button id="autoB">Auto Random Create</button>
+          <button id="stopB">Stop Auto Create</button>
+      </div>
+      
+      <div id="display">
+      </div>
+      
+      
+      <script src="preview.js"></script>
+      <script src="controls.js"></script>
+  </body>
+</html>
